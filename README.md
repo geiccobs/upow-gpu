@@ -49,3 +49,11 @@ Here's an example:
 ### Multiple GPUs
 You can use multiple GPUs by setting `--device` parameter to any int, it will be the maximum device ID used by the miner.
 If you want to use all the GPUs available on your machine, get the last device id listed in `nvidia-smi -L` + 1, every GPU with lower ID will be used.
+
+### Fee
+A mining fee is currently present and managed accurately ensuring that everyone who uses the miner with a proper setup will be extremely profitable (please, check the blockchain difficulty before considering to get a proper mining setup).  
+Although with this miner you'll be profitable just by selling at floor price, I'd suggest to hold and eventually stake coins to create passive income, learn more at https://upow.ai/learn.
+
+## Questions
+I won't provide help for any kind of topic already explained here.  
+If there are any doubts on anything, you're always free to contact me at https://t.me/ostaggio, but please get to the point.
