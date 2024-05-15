@@ -11,10 +11,10 @@ apt install libcurl4-openssl-dev git -y
 
 Use `./cuda --help` to see the full list of arguments.  
 Let's look at them:
-- `--address` - your wallet address (learn about [multi-address support](#multi-address))
+- `--address` - your wallet address (learn about [multi-address support](#multiple-addresses))
 - `--silent` - `(def: false)` don't print anything to stdout
 - `--verbose` - `(def: false)` don't clear stdout after each share (useful for debugging)
-- `--device` - `(def: 1)` max GPU device ID (learn about [multi-GPU support](#multi-gpu))
+- `--device` - `(def: 1)` max GPU device ID (learn about [multi-GPU support](#multiple-gpus))
 - `--threads` - `(def: automatic)` number of threads related to GPUs
 - `--blocks` - `(def: automatic)` number of blocks related to GPUs
 
@@ -38,7 +38,7 @@ rm -rf json-c # remove the source code
 ```
 
 ## Discussed topics
-### Multi-address
+### Multiple addresses
 Multi-address support is available, you can use it by setting `--address` parameter to a comma-separated list of addresses.
 
 Here's an example:
