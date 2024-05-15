@@ -24,12 +24,14 @@ It works on Windows, but hashrate displaying might be currently broken.
 Obviously it is working only on NVIDIA GPUs.
 
 #### Having problems with libjson-c?
+Please remember to use sudo before commands if required by your environment.
+
 ```bash
 git clone https://github.com/json-c/json-c.git # clone the source code
 cd json-c # go to the source code directory
 mkdir build && cd build # create a build directory
 cmake .. && make # build the source code
-sudo make install # install the library
+make install # install the library
 
 cd ../.. # go back to the root directory
 rm -rf json-c # remove the source code
