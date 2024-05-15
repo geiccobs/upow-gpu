@@ -19,8 +19,8 @@ Let's look at them:
 - `--blocks` - `(def: automatic)` number of blocks related to GPUs
 
 ### Platforms
-This miner is tested on both Linux and Windows (WSL 2).
-It works on Windows, but hashrate displaying might be currently broken.
+This miner is tested on both Linux and Windows (WSL 2).  
+It works on Windows, but hashrate displaying might be currently broken.  
 Obviously it is working only on NVIDIA GPUs.
 
 #### Having problems with libjson-c?
