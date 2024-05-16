@@ -2,7 +2,7 @@
 ## Setup
 
 ```bash
-apt install libcurl4-openssl-dev git -y
+apt install libcurl4-openssl-dev git cmake -y
 ```
 
 ## Usage
