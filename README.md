@@ -13,7 +13,7 @@ apt install libcurl4-openssl-dev git cmake -y
 [Download the latest files](https://github.com/geiccobs/upow-gpu/releases/latest), you'll need `cuda.exe` and all the `.dll` files.
 
 ### Instructions
-Use `./cuda --help` to see the full list of arguments.  
+Use `./cuda --help` (or `cuda.exe --help` in Windows) to see the full list of arguments.  
 Let's look at them:
 - `--address` - your wallet address (learn about [multi-address support](#multiple-addresses))
 - `--silent` - `(def: false)` don't print anything to stdout
