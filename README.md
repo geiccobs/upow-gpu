@@ -13,7 +13,7 @@ apt install libcurl4-openssl-dev git cmake -y
 [Download the latest files](https://github.com/geiccobs/upow-gpu/releases/latest), you'll need `cuda.exe` and all the `.dll` files.
 
 ### mmpOS
-[Download the latest files](https://github.com/geiccobs/upow-gpu/releases/latest), you'll need `export_CUDA-uPoW.json` to initially install the custom miner.  
+[Download the latest files](https://github.com/ddobreff/mmpos/releases/latest), you'll need `export_CUDA-uPoW.json` to initially install the custom miner.  
 For future updates you'll need to update your miner profile custom URL with `upow-cuda-mmpos_VERSION.tar.gz`  
 
 ### Instructions
