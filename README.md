@@ -22,6 +22,7 @@ Let's look at them:
 - `--address` - your wallet address (learn about [multi-address support](#multiple-addresses))
 - `--silent` - `(def: false)` don't print anything to stdout
 - `--verbose` - `(def: false)` don't clear stdout after each share (useful for debugging)
+- `--file` - `(def: false)` send `--verbose` stdout to `logs.txt` (useful for debugging)
 - `--device` - `(def: 1)` max GPU device ID (learn about [multi-GPU support](#multiple-gpus))
 - `--threads` - `(def: automatic)` number of threads related to GPUs
 - `--blocks` - `(def: automatic)` number of blocks related to GPUs
